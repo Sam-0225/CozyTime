@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sam0225.cozytime.presentation.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/CozyTimeTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:visibility="gone"
+            app:popupTheme="@style/CozyTimeTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/fragment_maps" />
+
+    <com.example.sam0225.cozytime.presentation.Fab
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_map"/>
+
+    <com.gordonwong.materialsheetfab.DimOverlayFrameLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <io.codetail.widget.RevealLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end|bottom"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/fab_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fab_sheet_item_all"
+                    style="@style/TextAppearance.CozyTimeTheme.Sheet.Item"
+                    android:text="@string/all" />
+
+                <TextView
+                    android:id="@+id/fab_sheet_item_taipei"
+                    style="@style/TextAppearance.CozyTimeTheme.Sheet.Item"
+                    android:text="@string/taipei" />
+
+                <TextView
+                    android:id="@+id/fab_sheet_item_hsinchu"
+                    style="@style/TextAppearance.CozyTimeTheme.Sheet.Item"
+                    android:text="@string/hsinchu" />
+
+                <TextView
+                    android:id="@+id/fab_sheet_item_taichung"
+                    style="@style/TextAppearance.CozyTimeTheme.Sheet.Item"
+                    android:text="@string/taichung" />
+
+                <TextView
+                    android:id="@+id/fab_sheet_item_tainan"
+                    style="@style/TextAppearance.CozyTimeTheme.Sheet.Item"
+                    android:text="@string/tainan" />
+
+                <TextView
+                    android:id="@+id/fab_sheet_item_kaohsiung"
+                    style="@style/TextAppearance.CozyTimeTheme.Sheet.Item"
+                    android:text="@string/kaohsiung" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </io.codetail.widget.RevealLinearLayout>
+
+    <!--登出-->
+    <!--<Button -->
+        <!--android:text="@string/logout"-->
+        <!--android:id="@+id/logout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+</android.support.design.widget.CoordinatorLayout>

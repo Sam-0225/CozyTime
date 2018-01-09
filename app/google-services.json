@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "725777664135",
+    "firebase_url": "https://searchcafe-191310.firebaseio.com",
+    "project_id": "searchcafe-191310",
+    "storage_bucket": "searchcafe-191310.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725777664135:android:d2c9225dc18832a2",
+        "android_client_info": {
+          "package_name": "com.example.sam0225.cozytime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725777664135-r98qkllk0fol2sktnm8meh6353rfqppl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9AfuHhApgPCl4yTHMsL6G2dEOv7R14jg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

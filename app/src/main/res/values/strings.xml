@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CozyTime</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"> AIzaSyDownMGIkIPoGVEnAJm6Sx882rBXaWJoGk </string>
+
+    <string name="signup">註冊</string>
+    <string name="signup_landing">尚未擁有帳號</string>
+    <string name="register_success">註冊成功</string>
+    <string name="login">登入</string>
+    <string name="login_landing">登入使用</string>
+    <string name="login_success">登入成功</string>
+    <string name="account">帳號</string>
+    <string name="password">密碼</string>
+    <string name="plz_input_accout">請輸入帳號</string>
+    <string name="plz_input_pw">請輸入密碼</string>
+    <string name="logout">登出</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">2006568216024972</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb2006568216024972</string>
+
+    <string name="all">ALL</string>
+    <string name="taipei">TAIPEI</string>
+    <string name="hsinchu">HSINCHU</string>
+    <string name="taichung">TAICHUNG</string>
+    <string name="tainan">TAINAN</string>
+    <string name="kaohsiung">KAOHSIUNG</string>
+
+    <string name="wifi">Wi-Fi</string>
+    <string name="seat">Seat</string>
+    <string name="quiet">Quiet</string>
+    <string name="tasty">Tasty</string>
+    <string name="cheap">Cheap</string>
+    <string name="music">Music</string>
+
+</resources>
