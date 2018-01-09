@@ -22,11 +22,9 @@ public class Fab extends FloatingActionButton implements AnimatedFab {
 	public Fab(Context context) {
 		super(context);
 	}
-
 	public Fab(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
-
 	public Fab(Context context, AttributeSet attrs, int defStyleAttr) {
 		super(context, attrs, defStyleAttr);
 	}

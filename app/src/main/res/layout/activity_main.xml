@@ -31,6 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|start"
         android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/myColorAccent"
+        app:rippleColor="@color/myColorHighlight"
         app:srcCompat="@android:drawable/ic_dialog_map"/>
 
     <com.gordonwong.materialsheetfab.DimOverlayFrameLayout

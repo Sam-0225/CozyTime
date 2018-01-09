@@ -5,6 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="background_card">#fff</color>
     <color name="backgroundColor">#8a603e</color>
+    <color name="myColorAccent">#D2AB94</color>
+    <color name="myColorHighlight">#996C54</color>
 
     <color name="text_black_87">#de000000</color>
 </resources>
