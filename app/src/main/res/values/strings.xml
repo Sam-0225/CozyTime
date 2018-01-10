@@ -7,10 +7,11 @@
     <string name="signup_landing">尚未擁有帳號</string>
     <string name="register_success">註冊成功</string>
     <string name="login">登入</string>
-    <string name="login_landing">登入使用</string>
+    <string name="login_landing">Email登入</string>
     <string name="login_success">登入成功</string>
+    <string name="login_failed">登入失敗</string>
     <string name="express_login">快速登入</string>
-    <string name="account">帳號</string>
+    <string name="account">帳號(Email)</string>
     <string name="password">密碼</string>
     <string name="plz_input_accout">請輸入帳號</string>
     <string name="plz_input_pw">請輸入密碼</string>
@@ -24,6 +25,7 @@
     <string name="taipei">TAIPEI</string>
     <string name="hsinchu">HSINCHU</string>
     <string name="taichung">TAICHUNG</string>
+    <string name="changhua">CHANGHUA</string>
     <string name="tainan">TAINAN</string>
     <string name="kaohsiung">KAOHSIUNG</string>
 

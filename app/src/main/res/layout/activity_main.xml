@@ -77,6 +77,11 @@
                     android:text="@string/taichung" />
 
                 <TextView
+                    android:id="@+id/fab_sheet_item_changhua"
+                    style="@style/TextAppearance.CozyTimeTheme.Sheet.Item"
+                    android:text="@string/taichung" />
+
+                <TextView
                     android:id="@+id/fab_sheet_item_tainan"
                     style="@style/TextAppearance.CozyTimeTheme.Sheet.Item"
                     android:text="@string/tainan" />

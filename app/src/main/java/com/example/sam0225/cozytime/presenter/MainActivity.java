@@ -211,6 +211,9 @@ public class MainActivity  extends FragmentActivity implements OnMapReadyCallbac
 			case R.id.fab_sheet_item_taichung:
 				loadData(CityName.TAICHUNG);
 				break;
+			case R.id.fab_sheet_item_changhua:
+				loadData(CityName.HSINCHU);
+				break;
 			case R.id.fab_sheet_item_tainan:
 				loadData(CityName.TAINAN);
 				break;

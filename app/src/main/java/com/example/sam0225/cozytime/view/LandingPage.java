@@ -5,10 +5,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.sam0225.cozytime.R;
-import com.example.sam0225.cozytime.presenter.LoginActivity;
-import com.example.sam0225.cozytime.presenter.SignUpActivity;
+import com.example.sam0225.cozytime.presenter.MainActivity;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
 import com.google.firebase.FirebaseApp;
@@ -51,8 +51,6 @@ public class LandingPage extends AppCompatActivity {
 
         setContentView(R.layout.landing_page);
         ButterKnife.bind(this);
-
-
 	}
 
 
@@ -67,10 +65,16 @@ public class LandingPage extends AppCompatActivity {
 			if (resultCode == RESULT_OK) {
 				// Successfully signed in
 				FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-				// ...
+                Toast.makeText(LandingPage.this, R.string.login_success, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent();
+                intent.setClass(LandingPage.this, MainActivity.class);
+                startActivity(intent);
+                finish();
 			} else {
 				// Sign in failed, check response for error code
-				// ...
+				// Back to LandingPage
+                Toast.makeText(LandingPage.this, R.string.login_failed, Toast.LENGTH_SHORT).show();
+
 			}
 		}
 	}
@@ -92,7 +96,7 @@ public class LandingPage extends AppCompatActivity {
                         AuthUI.getInstance()
                                 .createSignInIntentBuilder()
                                 .setAvailableProviders(providers)
-                                .setLogo(R.mipmap.ic_launcher_round_250)  // Set logo
+                                .setLogo(R.mipmap.ic_launcher_round_400)  // Set logo
                                 .setTheme(R.style.CozyTimeTheme)      // Set theme
                                 .build(),
                         RC_SIGN_IN);
