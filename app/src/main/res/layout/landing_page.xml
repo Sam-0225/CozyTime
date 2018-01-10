@@ -33,6 +33,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:elevation="20dp"/>
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sign_up"
+        android:text="@string/express_login"
+        android:id="@+id/express_login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="20dp"/>
 
 
 </LinearLayout>

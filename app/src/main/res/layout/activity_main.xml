@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.sam0225.cozytime.presentation.MainActivity">
+    tools:context="com.example.sam0225.cozytime.presenter.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
 
     <include layout="@layout/fragment_maps" />
 
-    <com.example.sam0225.cozytime.presentation.Fab
+    <com.example.sam0225.cozytime.presenter.Fab
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

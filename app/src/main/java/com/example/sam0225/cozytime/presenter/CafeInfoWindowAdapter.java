@@ -1,4 +1,4 @@
-package com.example.sam0225.cozytime.presentation;
+package com.example.sam0225.cozytime.presenter;
 
 import android.view.View;
 import android.widget.TextView;

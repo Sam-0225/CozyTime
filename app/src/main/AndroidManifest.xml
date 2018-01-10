@@ -17,7 +17,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
         <activity
-            android:name=".presentation.LandingPage"
+            android:name=".view.LandingPage"
             android:theme="@style/CozyTimeTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -26,13 +26,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".presentation.LoginActivity"
+            android:name=".presenter.LoginActivity"
             android:theme="@style/CozyTimeThemeContent"/>
         <activity
-            android:name=".presentation.SignUpActivity"
+            android:name=".presenter.SignUpActivity"
             android:theme="@style/CozyTimeThemeContent"/>
         <activity
-            android:name=".presentation.MainActivity"
+            android:name=".presenter.MainActivity"
             android:theme="@style/CozyTimeThemeContent"/>
     </application>
 

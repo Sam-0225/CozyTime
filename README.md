@@ -12,8 +12,8 @@
 ****
 
 ## 程式功能
-
-結合了firebase的email登入
+使用Butterknife註解框架<br/>
+結合了firebase的快速登入選項，可使用Facebook與Google登入，並且有smart-lock功能<br/>
 
 　　
 　　　　
